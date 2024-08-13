@@ -20,4 +20,4 @@ def write_file(li: str, file_dir: str):
 
 home = expanduser("~")
 desktop_dir = os.path.join(home, 'wikipedia_facts_airflow/test_2.txt')
-# get_today_events('https://en.wikipedia.org/wiki/Wikipedia:On_this_day/Today', desktop_dir)
+get_today_events('https://en.wikipedia.org/wiki/Wikipedia:On_this_day/Today', desktop_dir)
